@@ -3,7 +3,7 @@ import { Text, StyleSheet } from 'react-native';
 
 const ComponentsScreen = () => {
   return (
-    <Text style={styles.text}>Hello world</Text>
+    <Text style={styles.text}>Components</Text>
   )
 }
 

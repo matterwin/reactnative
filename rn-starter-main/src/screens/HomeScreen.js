@@ -5,7 +5,7 @@ const HomeScreen = ({ navigation }) => {
 
   return( 
     <View>
-      <Text style={styles.text}>Hello world!</Text>
+      <Text style={styles.text}>Hello world!ll</Text>
       <Button 
         title="Go to Components Demo" 
         onPress={() => navigation.navigate('Components')}
@@ -19,6 +19,14 @@ const HomeScreen = ({ navigation }) => {
           Go to List Demo
         </Text>
       </TouchableOpacity>
+      <Button 
+        title="Go to Counter Demo" 
+        onPress={() => navigation.navigate('Counter')}
+      />
+      <Button 
+        title="Go to Color Demo" 
+        onPress={() => navigation.navigate('Color')}
+      />
     </View>
   );
 };
